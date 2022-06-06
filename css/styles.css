@@ -435,31 +435,58 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  transition-duration: 0.5s;
+  transition-property: background;
 }
 
-/* line 15, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
+/* line 17, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
 /* line 19, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
+.default:hover {
+  background: #9cecfd;
+}
+
+/* line 24, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
+/* line 26, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
+.error:hover {
+  background: #f1b5b8;
+}
+
+/* line 31, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
+/* line 33, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
+.info:hover {
+  background: #bdafd9;
+}
+
+/* line 38, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
+/* line 40, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
+.success:hover {
+  background: #9ddfb0;
+}
+
+/* line 45, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 47, ../../../../../Users/tmc/Documents/Code/web-style-guide/scss/components/_buttons.scss */
+.warning:hover {
+  background: #feb4a2;
 }
 
 /* ============================================= */
