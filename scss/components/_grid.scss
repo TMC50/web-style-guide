@@ -10,6 +10,10 @@
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
+
+    @media #{$break-768px} {
+        flex-direction: row;
+    }
   }
   
   [class^=col] {
@@ -21,11 +25,11 @@
   }
   
   .theme.col-1 {
-    background-color: #927bc1;
+    background-color: $info-btn-color;
   }
   
   .theme.col-2 {
-    background-color: #fd7856;
+    background-color: $warning-btn-color;
   }
   
   .theme.col-3 {
@@ -53,15 +57,15 @@
   }
   
   .theme.col-9 {
-    background-color: #e4757a;
+    background-color: $error-btn-color;
   }
   
   .theme.col-10 {
-    background-color: #63cc82;
+    background-color: $success-btn-color;
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $default-btn-color;
   }
   
   .theme.col-12 {
