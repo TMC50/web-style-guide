@@ -16,10 +16,10 @@
         transition: 
             background-color .2s ease-in-out, 
             color .2s ease-in-out;
-        &:hover {
-            color: #fff;
-            background-color: $headline-primary-color;
-        }
+            &:hover {
+                color: #fff;
+                background-color: $headline-primary-color;
+            }
     }
   }
   
